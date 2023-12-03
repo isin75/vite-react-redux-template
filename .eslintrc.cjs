@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   extends: ['airbnb', 'prettier', 'plugin:react/recommended'],
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 8,
     ecmaFeatures: {
       jsx: true
     }
@@ -24,6 +24,7 @@ module.exports = {
     ENABLE_SOCKETS: true
   },
   rules: {
+    'no-async-promise-executor': 0,
     'default-param-last': 0,
     'no-param-reassign': 0,
     'import/extensions': 0,
