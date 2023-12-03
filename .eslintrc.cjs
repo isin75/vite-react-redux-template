@@ -1,8 +1,15 @@
 module.exports = {
   root: true,
-  extends: ['airbnb', 'prettier', 'plugin:react/recommended'],
+  extends: [
+    'airbnb',
+    'prettier',
+    'plugin:react/recommended',
+    'eslint:recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:react-hooks/recommended'
+  ],
   parserOptions: {
-    ecmaVersion: 8,
+    ecmaVersion: 'latest',
     ecmaFeatures: {
       jsx: true
     }
