@@ -3,6 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "node": {
+    "extensions": [
+      ".js",
+      ".json"
+    ]
+  },
   "scripts": {
     "dev": "yarn run watch:server & yarn run watch:client",
     "watch:client": "yarn run lint:client && vite",
