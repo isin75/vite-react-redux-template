@@ -1,4 +1,4 @@
-import options from '../config'
+import options from '../config.js'
 
 const corsOptions = {
   origin: options.clientApi,
